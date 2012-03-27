@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="text" group="Other" orderable="true">
+    <name>Measurement</name>
+    <author>G. Arends</author>
+    <creationDate>Maart 2012</creationDate>
+    <copyright>Copyright (C) JP Result</copyright>
+    <authorEmail>galo@jpresult.nl</authorEmail>
+    <authorUrl>http://www.jpresult.nl</authorUrl>
+    <version>2.5.0</version>
+    <description>Measurement input</description>
+    <params group="render">
+        <param name="unit" type="list" default="M" label="Unit of Measurement">
+            <option value="MM">Milimeter</option>
+            <option value="CM">Centimeter</option>
+            <option value="M">Meter</option>
+            <option value="KM">Kilometer</option>
+        </param>
+        <param name="conversion" type="list" default="" label="Conversion factors">
+            <option value="">Length</option>
+            <option value="2">Area</option>
+            <option value="3">Volume</option>
+        </param>
+    </params>
+</element>
